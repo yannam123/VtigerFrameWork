@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Com.Vtiger.TestScripts.CreatePriceBook">
+        <methods>
+          <include name="CreatePriceBook1"/>
+          <include name="ConfigAM"/>
+          <include name="ConfigBM"/>
+          <include name="ConfigAS"/>
+          <include name="ConfigAC"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBC"/>
+        </methods>
+      </class> <!-- Com.Vtiger.TestScripts.CreatePriceBook -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
